@@ -15,12 +15,10 @@ GPIO.output(in2, GPIO.LOW)
 p = GPIO.PWM(en, 1000)
 
 p.start(25)
-print("\n")
 print("The default speed & direction of motor is LOW & Forward.....")
 print("r-run s-stop f-forward b-backward l-low m-medium h-high e-exit")
-print("\n")
 
-while (1):
+while True:
 
     x = raw_input()
 
@@ -80,5 +78,5 @@ while (1):
         break
 
     else:
-        print("<<<  wrong data  >>>")
+        print("WRONG DATA")
         print("please enter the defined data to continue.....")
