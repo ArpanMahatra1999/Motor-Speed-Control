@@ -1,5 +1,4 @@
 # Motor-Speed-Control
-
 Python code for using Raspberry Pi for controlling motor speed using RPi module.
 
 Tools used:
